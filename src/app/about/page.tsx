@@ -5,32 +5,10 @@ import { Button } from "@/components/ui/Button";
 import { CTA } from "@/components/sections/CTA";
 
 export const metadata: Metadata = {
-  title: "About Adrian Cardenas",
-  description: "Meet Adrian Cardenas, your dedicated soccer coach in Oahu, Hawaii. With years of competitive experience and a passion for technique, Adrian helps players of all ages master the fundamentals.",
+  title: "About Adrian Cardenas Santiago",
+  description: "Meet Adrian Cardenas Santiago, your dedicated soccer coach in Oʻahu, Hawaiʻi. With over a decade of playing experience and continuous study of skill development, Adrian helps players of all ages master the fundamentals.",
 };
 
-const timeline = [
-  {
-    period: "Early Years",
-    title: "The Beginning",
-    description: "Started playing soccer at a young age, developing a deep love for the beautiful game and its technical aspects.",
-  },
-  {
-    period: "High School",
-    title: "Competitive Success",
-    description: "Competed at the high school level and advanced to states, honing skills against top competition.",
-  },
-  {
-    period: "Club Level",
-    title: "Travel & Growth",
-    description: "Played for club teams, traveling to compete and learning from diverse coaching styles and playing environments.",
-  },
-  {
-    period: "Present",
-    title: "Sharing the Knowledge",
-    description: "Now dedicated to helping players of all ages master the fundamentals and achieve their soccer goals in Oahu.",
-  },
-];
 
 const values = [
   {
@@ -65,12 +43,12 @@ export default function AboutPage() {
             </Badge>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
               Hi, I&apos;m{" "}
-              <span className="gradient-text">Adrian Cardenas</span>
+              <span className="gradient-text">Adrian Cardenas Santiago</span>
             </h1>
             <p className="text-xl text-dark-300 mb-8 leading-relaxed">
-              I&apos;ve been playing soccer my entire life. From youth leagues to high school states
-              to club teams, the game has shaped who I am. Now based in Oahu, Hawaii, I&apos;m dedicated
-              to helping players of all ages master the technical skills that make the biggest difference on the field.
+              I&apos;ve been playing soccer my entire life, constantly learning and refining my craft.
+              The game has shaped who I am today. Now based in Oʻahu, Hawaiʻi, I help players of all ages
+              develop the technical skills that make the biggest difference on the field. All ages welcome—come ready to grind.
             </p>
             <div className="flex flex-wrap gap-4">
               <Button href="/book" size="lg">
@@ -84,45 +62,19 @@ export default function AboutPage() {
         </Container>
       </section>
 
-      {/* Journey Timeline */}
+      {/* Built Through the Process */}
       <section className="py-20 lg:py-28 bg-dark-900">
         <Container>
-          <div className="text-center mb-16">
+          <div className="max-w-3xl mx-auto text-center">
             <Badge variant="primary" className="mb-4">
               My Journey
             </Badge>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              A Lifetime of Soccer
+              Built Through the Process
             </h2>
-            <p className="text-dark-400 text-lg max-w-2xl mx-auto">
-              From my first touch on the ball to coaching others, soccer has been my constant companion.
+            <p className="text-dark-400 text-lg">
+              Shaped by years of playing, studying the game, and testing what actually improves performance on the field.
             </p>
-          </div>
-
-          <div className="max-w-3xl mx-auto">
-            <div className="relative">
-              {/* Timeline line */}
-              <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-dark-700 transform md:-translate-x-1/2" />
-
-              {timeline.map((item, index) => (
-                <div
-                  key={index}
-                  className={`relative flex items-start gap-8 mb-12 ${
-                    index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                  }`}
-                >
-                  {/* Dot */}
-                  <div className="absolute left-4 md:left-1/2 w-3 h-3 bg-primary-500 rounded-full transform -translate-x-1/2 mt-2" />
-
-                  {/* Content */}
-                  <div className={`ml-12 md:ml-0 md:w-1/2 ${index % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12"}`}>
-                    <span className="text-primary-500 font-medium text-sm">{item.period}</span>
-                    <h3 className="text-xl font-bold text-white mt-1 mb-2">{item.title}</h3>
-                    <p className="text-dark-400">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
           </div>
         </Container>
       </section>
@@ -172,8 +124,8 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-white">Competitive Experience</h4>
-                    <p className="text-dark-400">High school states competitor with years of club-level play.</p>
+                    <h4 className="font-bold text-white">Dedicated Student of the Game</h4>
+                    <p className="text-dark-400">Over a decade of playing, backed by continuous research and hands-on study.</p>
                   </div>
                 </div>
 
@@ -197,8 +149,8 @@ export default function AboutPage() {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-bold text-white">Local & Flexible</h4>
-                    <p className="text-dark-400">Training at convenient Oahu locations that work for you.</p>
+                    <h4 className="font-bold text-white">Local & Worldwide</h4>
+                    <p className="text-dark-400">In-person training on Oʻahu, online programs available worldwide.</p>
                   </div>
                 </div>
 

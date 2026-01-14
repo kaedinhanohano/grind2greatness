@@ -9,7 +9,7 @@ const reasons = [
       </svg>
     ),
     title: "Lifelong Experience",
-    description: "Over a decade of playing soccer at competitive levels, including high school states and club teams.",
+    description: "Over a decade of playing experience, backed by continuous research and hands-on study of skill development and on-field performance.",
   },
   {
     icon: (
@@ -36,8 +36,8 @@ const reasons = [
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
       </svg>
     ),
-    title: "Oahu Local",
-    description: "Training at convenient local parks and fields across Oahu. Flexible locations to suit your needs.",
+    title: "Local & Worldwide",
+    description: "Based in Oʻahu, offering in-person training locally and online programs available worldwide.",
   },
   {
     icon: (

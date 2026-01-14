@@ -6,11 +6,11 @@ export const SITE_CONFIG = {
 };
 
 export const COACH = {
-  name: "Adrian Cardenas",
+  name: "Adrian Cardenas Santiago",
   email: "4adrian.cardenas.santiago@gmail.com",
   instagram: "adrian.cardenas.santiago",
   tiktok: "adrian.cardenas.santiago",
-  location: "Oahu, Hawaii",
+  location: "Oʻahu, Hawaiʻi",
 };
 
 export const SERVICES = {
@@ -25,15 +25,15 @@ export const SERVICES = {
     name: "Single Session",
     price: 65,
     priceDisplay: "$65",
-    duration: "60 minutes",
-    description: "One-on-one private training session focused on your specific needs.",
+    duration: "1 hour 15 minutes",
+    description: "In-person 1-on-1 training on Oʻahu, Hawaiʻi. Focused attention on your specific needs.",
   },
   weekly: {
     name: "Weekly Program",
     price: 200,
     priceDisplay: "$200",
-    duration: "4 sessions",
-    description: "Intensive weekly training for accelerated improvement and skill mastery.",
+    duration: "5 sessions",
+    description: "Structured online training program designed for athletes to follow independently from anywhere.",
   },
 };
 
