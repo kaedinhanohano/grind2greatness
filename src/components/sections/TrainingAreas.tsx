@@ -57,16 +57,16 @@ export function TrainingAreas() {
             </p>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6">
-              <div>
+            <div className="flex flex-wrap justify-center sm:justify-start gap-6 sm:gap-8">
+              <div className="text-center sm:text-left">
                 <div className="text-3xl font-bold text-primary-500">10+</div>
                 <div className="text-dark-400 text-sm">Years Playing</div>
               </div>
-              <div>
+              <div className="text-center sm:text-left">
                 <div className="text-3xl font-bold text-primary-500">All</div>
                 <div className="text-dark-400 text-sm">Ages Welcome</div>
               </div>
-              <div>
+              <div className="text-center sm:text-left">
                 <div className="text-3xl font-bold text-primary-500">1:1</div>
                 <div className="text-dark-400 text-sm">Personal Focus</div>
               </div>
@@ -74,7 +74,7 @@ export function TrainingAreas() {
           </div>
 
           {/* Training areas grid */}
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {trainingAreas.map((area, index) => (
               <div
                 key={index}

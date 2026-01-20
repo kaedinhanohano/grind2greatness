@@ -74,7 +74,7 @@ export function Services() {
         </div>
 
         {/* Service cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <Card
               key={service.id}
